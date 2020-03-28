@@ -36,11 +36,11 @@ Components:
 EG: "bootstrap": "^4.4.1",
 	"library_name": "^MajorNumber.MinorNumber.PatchNumber"
 	
-> npm install
+> npm install : This will auto install the dependencies from package.json
 
 ----------------------------------------------------------------------------
 
->To enable bootstrap@3:
+>To enable bootstrap@3 OR bootstrap@4 (ie: bootstrap@version) OR bootstrap@latest :
 1. npm install --save bootstrap@3
 2. npm install --save bootstrap jquery
 3. npm install popper.js
@@ -58,12 +58,3 @@ EG: "bootstrap": "^4.4.1",
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-
-----------------------------------------------------------------------------
-
-Not sure if anyone faced the same issue or not but, I tried installing bootstrap@3 in my three of the project while learning Angular till now using below command:> npm install --save bootstrap@3
-
-Now modifying, angular.json, but still obersved that bootstrap styles is not working as expected. So did some googling and found that, I need to install JQuery as well as popper.js along with bootstrap@3. Is it so ?But did some more googleing and found that if we add below three lines in index.html bootstarp is working as expected.
-
-----------------------------------------------------------------------------
