@@ -1,26 +1,23 @@
-# angular
-> node --version
-> npm install -g @angular@cli
-> ng serve
-****OR****
-  ng serve --open
-> ng --version
-> ng new hello-world
-> npm install -g typescript
-> tsc --verison (Typescript compiler)
-> tsc main.ts | node main.js : First halft of the command will compile main.ts and generate main.js and second half of the command will execute generated main.js and produce the output.
-> D/B "let" and "var" key word to declare a variable in Angular. : Where-ever we have to declare variable use "let" keyword because it is restricted to within scope of the nearest function.
-	. Also even if there is compilation error, tsc will create .js file.
-> tsc main.ts && node main.js
-	OR tsc *.ts && node main.js
-> tsc --target ES6 "main_6.ts" | node main_6.js
-	OR tsc -t es5 main_refactor_classandconstructor.ts
-> Generating Component: ng g c recipes --specs false
-****OR****
-  ng g c recipes --skipTests true
-> ng g c recipes/recipe-list --specs false
-> Generating Service: ng g s email
-> Generating Directive: ng g d input-format
+# Self angular notes:
+1. node --version
+2. npm install -g @angular@cli
+3. ng serve    ****OR****    ng serve --open
+4. ng --version
+5. ng new hello-world
+6. npm install -g typescript
+7. tsc --verison (Typescript compiler)
+8. tsc main.ts | node main.js : First half of the command will compile main.ts and generate main.js and second half of the command will execute generated main.js and produce the output.
+
+NOTE1 : D/B "let" and "var" key word to declare a variable in Angular. : Where-ever we have to declare variable use "let" keyword because it is restricted to within scope of the nearest function.
+
+NOTE2 : Even if there is compilation error, tsc will create .js file.
+
+9. tsc main.ts && node main.js    ****OR****    tsc *.ts && node main.js
+10. tsc --target ES6 "main_6.ts" | node main_6.js    ****OR****    tsc -t es5 main_refactor_classandconstructor.ts
+11. Generating Component: 
+	ng g c recipes --specs false    ****OR****    ng g c recipes --skipTests true    ****OR****    ng g c recipes/recipe-list --specs false
+12. Generating Service: ng g s email
+13. Generating Directive: ng g d input-format
 
 ----------------------------------------------------------------------------
 
